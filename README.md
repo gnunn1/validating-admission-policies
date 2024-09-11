@@ -1,3 +1,6 @@
+### IGNORE: Kubescape has a great library already, no need to reinvent the wheel ###
+(https://github.com/kubescape/cel-admission-library/tree/main)[kubescape/cel-admission-library]
+
 # Introduction
 
 Validating Admission Policy (VAP) is a new feature in Kubernetes 1.30 and is available in OpenShift starting with 4.17. This
@@ -19,9 +22,6 @@ Hopefully over time OSS projects will fill in some of these gaps.
 # Enabling VAP in OpenShift
 
 In OpenShift 4.17 VAP is included out of the box. In OpenShift 4.16 and potentially earlier (only tested in 4.16)
-### IGNORE: Kubescape has a great library already, no need to reinvent the wheel ###
-(https://github.com/kubescape/cel-admission-library/tree/main)[kubescape/cel-admission-library]
-
 it needs to be enabled with a FeatureGate.
 
 **NOTE**: Adding a FeatureGate makes your cluster **permanently non-upgradeable**, **never** do this on a real cluster that is in use. This
