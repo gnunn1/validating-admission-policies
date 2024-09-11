@@ -12,3 +12,5 @@ spec:
       resources:   ["applications"]
   validations:
     - expression: "object.spec.project != 'default' "
+      message: "Applications are not permitted to use the default Argo CD project"
+      reason: Forbidden
