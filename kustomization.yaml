@@ -1,0 +1,2 @@
+resources:
+- configuration/argocd/disallow-default-project-policy.yaml
