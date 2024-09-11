@@ -21,7 +21,7 @@ Hopefully over time OSS projects will fill in some of these gaps.
 In OpenShift 4.17 VAP is included out of the box. In OpenShift 4.16 and potentially earlier (only tested in 4.16)
 it needs to be enabled with a FeatureGate.
 
-*NOTE*: Adding a FeatureGate makes your cluster permanently non-upgradeable, *never* do this on a real cluster that is use. This
+**NOTE**: Adding a FeatureGate makes your cluster **permanently non-upgradeable**, **never** do this on a real cluster that is in use. This
 should only be done on ephemeral lab type environment.
 
 To enable the FeatureGate, add the following to the existing FeatureGate `cluster` CR:
