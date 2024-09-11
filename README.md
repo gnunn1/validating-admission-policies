@@ -1,5 +1,5 @@
 ### IGNORE: Kubescape has a great library already, no need to reinvent the wheel ###
-(https://github.com/kubescape/cel-admission-library/tree/main)[kubescape/cel-admission-library]
+[kubescape/cel-admission-library](https://github.com/kubescape/cel-admission-library/tree/main)
 
 # Introduction
 
